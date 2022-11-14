@@ -13,12 +13,24 @@ export class Componente3Component implements OnInit {
   ngOnInit(): void {
   }
 
-  volver(){
+  navegacion(){
     this.router.navigate(['web1'])
   }
 
-  volver2(){
+  navegacion2(){
     this.router.navigate(['web2'])
+  }
+
+  navegacion3(){
+    this.router.navigate(['web4'])
+  }
+
+  navegacion4(){
+    this.router.navigate(['web5'])
+  }
+
+  navegacion5(){
+    this.router.navigate(['web6'])
   }
 
 }

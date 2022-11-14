@@ -21,4 +21,16 @@ export class Componente1Component implements OnInit {
   navegacion2(){
     this.router.navigate(['web3'])
   }
+
+  navegacion3(){
+    this.router.navigate(['web4'])
+  }
+
+  navegacion4(){
+    this.router.navigate(['web5'])
+  }
+
+  navegacion5(){
+    this.router.navigate(['web6'])
+  }
 }
